@@ -7,7 +7,6 @@ body {
     height: 100%;
     font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: rgb(245, 245, 245);
-    /*overflow: hidden;*/
 }
 
 input[type='checkbox'] {
@@ -16,7 +15,6 @@ input[type='checkbox'] {
 
 .dinner-picker__root {
     margin: 0 auto; 
-    /* margin-top: 7em; */
     width: 50em;
     display: flex;
     flex-direction: column;
@@ -24,8 +22,7 @@ input[type='checkbox'] {
     align-items: center;
     padding: 1em;
     color: #4d4d4d;
-    font-weight: 300;
-    
+    font-weight: 300;    
 }
 
 .dinner-picker__header {
@@ -47,6 +44,7 @@ input[type='checkbox'] {
     justify-content:center;
     margin: 20px;
 }
+
 .dinner-picker__button {
   display: inline-block;
   padding: 15px 25px;
@@ -63,7 +61,9 @@ input[type='checkbox'] {
   box-shadow: 0 9px #999;
 }
 
-.dinner-picker__button:hover {background-color: #3e8e41}
+.dinner-picker__button:hover {
+    background-color: #3e8e41
+}
 
 .dinner-picker__button:active {
   background-color: #3e8e41;
@@ -80,74 +80,67 @@ input[type='checkbox'] {
 
 .dinner-picker__choice{
     color: #AAAAAA;
-    
 }
 
 .dinner-picker__restaurant{
- 
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
+
 .dinner-picker__restaurant-category{
     margin: 0px;
     margin-top:20px;
     font-size: 30px;
 }
+
 .dinner-picker__restaurant-name{
     margin: 0px;
-    font-size: 60px;
-    
+    font-size: 60px;   
 }
 
 
-.dinner-picker__restaurant img{
-    
+.dinner-picker__restaurant img{ 
     width: 600px;
-    height: 300px;
-    
+    height: 300px;  
 }
 
-.dinner-picker__food-wrapper{
-    
+.dinner-picker__food-wrapper{  
     display: flex;
     align-items: center;
     justify-content: center;  
 }
 
-.dinner-picker__food,.dinner-picker__map,.dinner-picker__comment {
+.dinner-picker__food, .dinner-picker__map, .dinner-picker__comment {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
+
 .dinner-picker__food img{
     width: 200px;
     height: 200px;  
 }
 
 .dinner-picker__food p{
-    font-size: 16px;
-     
+    font-size: 16px;   
 }
 
 .dinner-picker__comment a{
     margin: 20px;
     font-size: 30px;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
+
 .dinner-picker__comment a:link{
-    color: cornflowerblue;
-    
+    color: cornflowerblue;    
 }
+
 .dinner-picker__comment a:hover{
     color: aqua;
-    
 }
+
 .dinner-picker__comment a:visited{
-    color: hotpink;
-    
+    color: hotpink;   
 }
